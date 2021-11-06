@@ -1,4 +1,5 @@
-""" This is the increment function"""
+"""Testing the Calculator"""
+
 class Calculator:
     """ This is the Calculator class"""
 
