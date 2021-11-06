@@ -1,21 +1,36 @@
-""" This is the increment function"""
 class Calculator:
-    """ This is the Calculator class"""
-
     result = 0
-    def get_result(self):
-        """ Get Result of Calculation"""
+    # Addition of two numbers
+    def add(self, a, b):
+        self.a =  a
+        self.result = self.a +b
         return self.result
 
-    def add_number(self, value_a):
-        """ adds number to result"""
-        self.result = self.result + value_a
+
+    # Subtraction of two numbers
+    def subtract(self, a, b):
+        self.a = a
+        self.result = self.a - b
         return self.result
-    def subtract_number(self, value_a):
-        """ subtract number from result"""
-        self.result = self.result - value_a
+
+
+    # Multiplication of two numbers
+    def multiply(self, a, b):
+        self.a = a
+        self.result = self.a * b
         return self.result
-    def multiply_numbers(self, value_a, value_b):
-        """ multiply two numbers and store the result"""
-        self.result = value_a * value_b
+
+    # Division of numbers and exception for division by 0
+    def divide(self, a, b):
+        self.a = a
+        if b <= 0:
+            return "Error: A number cannot be divided by 0"
+        else:
+            self.result = self.a / b
+            return self.result
+
+    # Increment a number by 1
+    def increment(self, a):
+        self.a = a
+        self.result = self.a + 1
         return self.result
