@@ -1,3 +1,4 @@
+""" This class is a collection of calculator functions """
 class Calculator:
     result = 0
     # Addition of two numbers
