@@ -9,14 +9,12 @@ class Calculator:
         self.result = self.num_a + num2_b
         return self.result
 
-
     # Subtraction of two numbers
     def subtract(self, num1_a, num2_b):
         """ Function to subtract two numbers """
         self.num_a = num1_a
         self.result = self.num_a - num2_b
         return self.result
-
 
     # Multiplication of two numbers
     def multiply(self, num1_a, num2_b):
