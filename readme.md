@@ -3,6 +3,7 @@
 
 To run tests, Lint, and Coverage report use this command:
 
+Commands
 pytest  --pylint --cov
 
 .pylintrc is the config for pylint
