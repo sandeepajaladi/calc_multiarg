@@ -31,7 +31,7 @@ def test_calculator_multiply_static(clear_history_fixture):
     Calculator.multiply_numbers(my_tuple)
     assert Calculator.get_result_value() == 6.0
     
-    def test_calculator_division_static(clear_history_fixture):
+def test_calculator_division_static(clear_history_fixture):
     """Testing the division method of the calc"""
     # pylint: disable=unused-argument,redefined-outer-name
     #using Tuple instead of args because we can pack as much data as we need into the tuple
