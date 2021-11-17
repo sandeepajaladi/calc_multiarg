@@ -35,4 +35,4 @@ def test_calculator_division_static(clear_history_fixture):
     #using Tuple instead of args because we can pack as much data as we need into the tuple
     my_tuple = (8.0,4.0,2.0)
     Calculator.division_numbers(my_tuple)
-    assert Calculator.get_result_value() == 1.0
+    assert Calculator.get_result_value() == 0.015625
