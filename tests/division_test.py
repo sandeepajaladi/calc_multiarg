@@ -8,4 +8,4 @@ def test_calculation_division():
     division = Division(mynumbers)
     #Act
     #Assert
-    assert division.get_result() == 1
+    assert division.get_result() == 0.25
